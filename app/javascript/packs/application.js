@@ -11,3 +11,19 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+import Vue from "vue/dist/vue.esm";
+import store from "../src/store/shop";
+document.addEventListener("DOMContentLoaded", () => {
+  window.vm = new Vue({
+    el: "#app",
+    store: store,
+    components: {
+      HomeIndex: () => import("/app/javascript/src/components/Home/Index.vue"),
+    },
+    // async created() {
+    //   await this.setCartNumberItem();
+    // },
+  });
+
+  // Vue.use(Toasted, { theme: "bubble", duration: 2000 });
+});
