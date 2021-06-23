@@ -18,11 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
     el: "#app",
     store: store,
     components: {
+      Loading: () => import("/app/javascript/src/components/Shared/Loading"),
+      Sidebar: () => import("/app/javascript/src/components/Shared/Sidebar"),
+      HeaderMenu: () => import("/app/javascript/src/components/Shared/Header"),
       HomeIndex: () => import("/app/javascript/src/components/Home/Index.vue"),
     },
-    // async created() {
-    //   await this.setCartNumberItem();
-    // },
   });
 
   // Vue.use(Toasted, { theme: "bubble", duration: 2000 });

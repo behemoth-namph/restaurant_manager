@@ -3,6 +3,20 @@
   <head>
     <title>RestaurantManager</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	  <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icon/favicon.png">
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,15 +24,554 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <!-- <body>
     <div id="app">
-      <div class="admin">
-        <div class="admin-body">
-          <div class="admin-content">
+      <div class="shop">
+        <%= sidebar @route %>
+
+        <div class="shop-body">
+          <%= shop_header_menu %>
+
+          <div class="shop-content">
             <%= yield %>
           </div>
         </div>
       </div>
+      
+      <%= loading %>
     </div>
-  </body>
+  </body> -->
+  <body>
+    <div id="preloader">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div><!-- /spinner -->
+    </div><!-- /preloader -->
+
+    <div class="header" id="app">
+        <nav class="navbar navbar-default navbar-static-top" id="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-responsive" alt="logo"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menus</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="cart.html" class="btn-cart">
+                            <img src="img/icon/online-shopping-cart.png" class="shopping-cart" alt=""></a> <span class="bubble">0</span></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav><!-- /navbar-default -->
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item item1 active">
+                    <img src="img/slider-1.jpg" class="img-responsive" alt="slider">
+                    <div class="carousel-caption">
+                        <h1 class="text-left wow fadeInUp animation-2s">Sushi - The Taste of Life!</h1>
+                        <p class="text-left wow fadeInUp animation-3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor<br>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+                        quis nostrud exercitation ullamco laboris nisi.</p>
+                        <a href="menu.html" class="pull-left btn-default1 mt-20 wow fadeInUp animation-5s">Order!</a>
+                    </div><!-- /carousel-caption -->
+                </div>
+                <div class="item item2">
+                    <img src="img/slider-2.jpg" class="img-responsive" alt="slider">
+                    <div class="carousel-caption">
+                        <h1 class="text-left wow fadeInUp animation-2s">A Sushi Adventures Begin</h1>
+                        <p class="text-left wow fadeInUp animation-3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor<br>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+                        quis nostrud exercitation ullamco laboris nisi.</p>
+                        <a href="menu.html" class="pull-left btn-default1 mt-20 wow fadeInUp animation-5s">Order!</a>
+                    </div><!-- /carousel-caption -->
+                </div>
+                <div class="item item3">
+                    <img src="img/slider-3.jpg" class="img-responsive" alt="slider">
+                    <div class="carousel-caption">
+                        <h1 class="text-right wow fadeInUp animation-2s">Best Shusi at Your Area!</h1>
+                        <p class="text-right wow fadeInUp animation-3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor<br>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+                        quis nostrud exercitation ullamco laboris nisi.</p>
+                        <a href="menu.html" class="pull-right btn-default1 mt-20 wow fadeInUp animation-5s">Order!</a>
+                    </div><!-- /carousel-caption -->
+                </div>
+            </div><!-- /carousel-inner -->
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div><!-- /carousel -->
+    </div><!-- /header -->
+
+    <div class="overview-section sec-pad">
+        <div class="container">
+            <div class="section-title text-center">
+                <h6>OUR VARITIES</h6>
+                <h1>Our Sushi Benefits</h1>
+            </div><!-- /section-title -->
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb">
+                    <div class="widget-box">
+                        <img src="img/icon/cookbook.png" class="img-responsive icon" alt="">
+                        <h4 class="small-title">Online Reservations</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="menu.html"><i class="fa fa-angle-double-right"></i> Read More</a>
+                    </div><!-- /widget-box -->
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb">
+                    <div class="widget-box">
+                        <img src="img/icon/noodles.png" class="img-responsive icon" alt="">
+                        <h4 class="small-title">Popular Dishes</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="menu.html"><i class="fa fa-angle-double-right"></i> Read More</a>
+                    </div><!-- /widget-box -->
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb">
+                    <div class="widget-box">
+                        <img src="img/icon/scooter.png" class="img-responsive icon" alt="">
+                        <h4 class="small-title">Door Delivery</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="menu.html"><i class="fa fa-angle-double-right"></i> Read More</a>
+                    </div><!-- /widget-box -->
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb">
+                    <div class="widget-box">
+                        <img src="img/icon/tray.png" class="img-responsive icon" alt="">
+                        <h4 class="small-title">Non-stop Service</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="menu.html"><i class="fa fa-angle-double-right"></i> Read More</a>
+                    </div><!-- /widget-box -->
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb">
+                    <div class="widget-box">
+                        <img src="img/icon/candles.png" class="img-responsive icon" alt="">
+                        <h4 class="small-title">Candle Light Dinner</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="menu.html"><i class="fa fa-angle-double-right"></i> Read More</a>
+                    </div><!-- /widget-box -->
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb">
+                    <div class="widget-box">
+                        <img src="img/icon/sushi.png" class="img-responsive icon" alt="">
+                        <h4 class="small-title">Special Sushi Foods</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="menu.html"><i class="fa fa-angle-double-right"></i> Read More</a>
+                    </div><!-- /widget-box -->
+                </div>
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div><!-- /overview-section --><hr>
+
+    <div class="about-section sec-pad">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-40">
+                    <img src="img/abt.jpg" class="img-responsive" alt="">
+                </div>
+
+                <div class="col-md-6 mb-40">
+                    <div class="section-title1 text-left">
+                        <h6>ABOUT US</h6>
+                        <h1>Know About Us</h1>
+                    </div><!-- /section-title -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="about.html" class="btn btn-default1 mt-30">Know More</a>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div><!-- /about-section -->
+
+    <div class="popular-section sec-pad bg-grey">
+        <div class="container">
+            <div class="section-title text-center">
+                <h6>TRENDING</h6>
+                <h1>Our Popular Dishes</h1>
+            </div><!-- /section-title -->
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 mb">
+                    <div class="widget-dish">
+                        <img src="img/sushi-1.jpg" class="img-responsive" alt="">
+                        <div class="dish-head">
+                            <h4>Mayonese Sushi</h4>
+                            <small>$250</small>
+                            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div><!-- /dish-head -->
+                        <div class="dish-footer">
+                            <a href="menu.html" class="btn btn-default1">Order</a>
+                        </div><!-- /dish-footer -->
+                    </div><!-- /widget-dish -->
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 mb">
+                    <div class="widget-dish">
+                        <img src="img/sushi-2.jpg" class="img-responsive" alt="">
+                        <div class="dish-head">
+                            <h4>Chicken Sushi</h4>
+                            <small>$350</small>
+                            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            <h5 class="badge">HOT</h5>
+                        </div><!-- /dish-head -->
+                        <div class="dish-footer">
+                            <a href="menu.html" class="btn btn-default1">Order</a>
+                        </div><!-- /dish-footer -->
+                    </div><!-- /widget-dish -->
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 mb">
+                    <div class="widget-dish">
+                        <img src="img/sushi-3.jpg" class="img-responsive" alt="">
+                        <div class="dish-head">
+                            <h4>Prawn Sushi</h4>
+                            <small>$190</small>
+                            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div><!-- /dish-head -->
+                        <div class="dish-footer">
+                            <a href="menu.html" class="btn btn-default1">Order</a>
+                        </div><!-- /dish-footer -->
+                    </div><!-- /widget-dish -->
+                </div>
+            </div><!-- /row -->
+
+            <div class="row">
+                <div class="col-md-12 mb text-center">
+                    <a href="menu.html" class="btn btn-default mt-20">More Dishes</a>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </div><!-- /popular-section -->
+
+    <div class="news-section sec-pad">
+        <div class="container">
+            <div class="section-title text-center">
+                <h6>BLOG</h6>
+                <h1>Our Latest News</h1>
+            </div><!-- /section-title -->
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="news-box mb">
+                        <img src="img/blog-1.jpg" class="img-responsive mb" alt="">
+                        <h4>The Shushi Combo Offer</h4>
+                        <small>Sep - 2017 &nbsp;&nbsp; <span class="red"><i class="fa fa-heart-o"></i> 23</span></small>
+                        <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt.</p>
+                        <a href="#"><i class="fa fa-angle-double-right"></i> Read More</a>
+                    </div><!-- /news-box -->
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 mb">
+                            <div class="news-img">
+                                <img src="img/blog-2.jpg" class="img-responsive" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-6 mb">
+                            <h4>Best Combo Package</h4>
+                            <small>Jan - 2018 &nbsp;&nbsp; <span class="red"><i class="fa fa-heart-o"></i> 100</span></small>
+                            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco aliquip.</p>
+                            <a href="#"><i class="fa fa-angle-double-right"></i> Read More</a>
+                        </div>
+                    </div><!-- /row -->
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 mb">
+                            <div class="news-img">
+                                <img src="img/blog-3.jpg" class="img-responsive" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-6 mb">
+                            <h4>Contest Winner</h4>
+                            <small>Dec - 2017 &nbsp;&nbsp; <span class="red"><i class="fa fa-heart-o"></i> 10</span></small>
+                            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco aliquip.</p>
+                            <a href="#"><i class="fa fa-angle-double-right"></i> Read More</a>
+                        </div>
+                    </div><!-- /row -->
+                </div>
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div><!-- /news-section -->
+
+    <div class="milestone-section">
+        <div class="container">
+            <div class="section-title">
+                <h6>MILESTONE</h6>
+                <h1>Some Fun Facts</h1>
+            </div><!-- /section-title -->
+
+            <div class="row">
+                <div class="col-sm-2 col-xs-6">
+                    <h1 class="big">7650</h1>
+                    <h5>Shusi Plates</h5>
+                </div>
+
+                <div class="col-sm-2 col-xs-6">
+                    <h1 class="big">1800</h1>
+                    <h5>Shushi Chefs</h5>
+                </div>
+
+                <div class="col-sm-2 col-xs-6">
+                    <h1 class="big">270</h1>
+                    <h5>Worldwide Branches</h5>
+                </div>
+
+                <div class="col-md-6"></div>
+            </div><!-- /row -->
+
+            <div class="row mt-30">
+                <div class="col-md-8">
+                    <p class="orange txt-normal"><sup><i class="fa fa-quote-left"></i></sup> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <sup><i class="fa fa-quote-right"></i></sup></p>
+                </div>
+                <div class="col-md-4"></div>
+            </div><!-- /row -->
+
+        </div><!-- /container -->
+    </div><!-- /milestone-section -->
+
+    <div class="testimonial-section sec-pad">
+        <div class="container">
+            <div class="section-title text-center">
+                <h6>PEOPLES</h6>
+                <h1>Our Customer Says</h1>
+            </div><!-- /section-title -->
+
+            <div id="owl-demo">
+                <div class="item">
+                    <div class="testi-box">
+                        <div class="testi-head">
+                            <h5>James Cunnigham <span class="pull-right">Chairman, Envato</span></h5>
+                        </div><!-- /testi-head -->
+                        <div class="testi-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div><!-- /testi-body -->
+                        <img src="img/testi-1.jpg" class="author" alt="">
+                    </div><!-- /testi-box -->
+                </div><!-- /item -->
+
+                <div class="item">
+                    <div class="testi-box">
+                        <div class="testi-head">
+                            <h5>Murphy Conlon <span class="pull-right">Ceo, Envato</span></h5>
+                        </div><!-- /testi-head -->
+                        <div class="testi-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div><!-- /testi-body -->
+                        <img src="img/testi-2.jpg" class="author" alt="">
+                    </div><!-- /testi-box -->
+                </div><!-- /item -->
+
+                <div class="item">
+                    <div class="testi-box">
+                        <div class="testi-head">
+                            <h5>Collis Taeed <span class="pull-right">Manager, Apple</span></h5>
+                        </div><!-- /testi-head -->
+                        <div class="testi-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div><!-- /testi-body -->
+                        <img src="img/testi-3.jpg" class="author" alt="">
+                    </div><!-- /testi-box -->
+                </div><!-- /item -->
+
+                <div class="item">
+                    <div class="testi-box">
+                        <div class="testi-head">
+                            <h5>Mak Bruno <span class="pull-right">Designer</span></h5>
+                        </div><!-- /testi-head -->
+                        <div class="testi-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div><!-- /testi-body -->
+                        <img src="img/testi-4.jpg" class="author" alt="">
+                    </div><!-- /testi-box -->
+                </div><!-- /item -->
+                
+                <div class="item">
+                    <div class="testi-box">
+                        <div class="testi-head">
+                            <h5>James Cunnigham <span class="pull-right">Chairman, Envato</span></h5>
+                        </div><!-- /testi-head -->
+                        <div class="testi-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div><!-- /testi-body -->
+                        <img src="img/testi-5.jpg" class="author" alt="">
+                    </div><!-- /testi-box -->
+                </div><!-- /item -->
+            </div>
+        </div><!-- /container -->
+    </div><!-- /testimonial-section -->
+
+    <div class="brand-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-4 col-xs-4 mb">
+                    <img src="img/brand-1.jpg" class="img-responsive" alt="">
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-xs-4 mb">
+                    <img src="img/brand-2.jpg" class="img-responsive" alt="">
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-xs-4 mb">
+                    <img src="img/brand-3.jpg" class="img-responsive" alt="">
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-xs-4 mb">
+                    <img src="img/brand-4.jpg" class="img-responsive" alt="">
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-xs-4 mb">
+                    <img src="img/brand-5.jpg" class="img-responsive" alt="">
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-xs-4 mb">
+                    <img src="img/brand-6.jpg" class="img-responsive" alt="">
+                </div>
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div><!-- /brand-section -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 mb">
+                    <img src="img/logo.png" class="img-responsive logo" alt="logo">
+                    <p><i class="fa fa-map-marker orange"></i> &nbsp;45th Ave, Melbourne, Australia- 600203</p>
+                    <p><i class="fa fa-envelope orange"></i> &nbsp;info@mrsushi.com</p>
+                    <p><i class="fa fa-phone orange"></i> &nbsp;(+61) 123 456 7890</p>
+                    <p><i class="fa fa-phone orange"></i> &nbsp;(+61) 098 765 4321</p>
+                </div>
+
+                <div class="col-sm-4 mb">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html"><i class="fa fa-angle-double-right"></i> Privacy Policy &nbsp;</a>
+                            <span class="indent"><a href="#"><i class="fa fa-angle-double-right"></i> Terms & Conditions</a></span></li>
+                        <li><a href="index.html"><i class="fa fa-angle-double-right"></i> Place Order</a>
+                            <span class="indent"><a href="#"><i class="fa fa-angle-double-right"></i> Track Order</a></span></li>
+                        <li><a href="index.html"><i class="fa fa-angle-double-right"></i> Home Delivery</a></li>
+                        <li><a href="index.html"><i class="fa fa-angle-double-right"></i> Open Your Cart</a></li>    
+                    </ul>
+                    
+                </div>
+
+                <div class="col-sm-4 mb">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <form>
+                        <p>Subscribe our newsletter for latest offers and news!...</p>
+                        <div class="input-group">
+                            <input type="Email" class="form-control" placeholder="Enter Your Email*" aria-describedby="basic-addon1" required="">
+                            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-send"></i></span>
+                        </div>
+
+                    </form>
+                    <!-- <button class="btn-default" type="submit">Submit</button> -->
+
+                    <div class="social mt-20">
+                        <ul class="social-network social-circle">
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        </ul>    
+                    </div>
+                    
+                </div>
+            </div><!-- /row -->    
+        </div><!-- /container --><hr>
+
+        <div class="copyright">
+            <div class="container">
+                <p class="text-left">&copy; 2018 Sushito. All Rights Reserved. <span class="text-right pull-right">Created By <a href="https://themeforest.net/user/himalayanthemes/portfolio"><b>HimalayanThemes</b></a></span></p>
+            </div><!-- /container -->
+        </div><!-- /copyright -->
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/active.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+    	//Preloader
+        $(window).on("load", function(){
+            $('#preloader').fadeOut('slow', function() {
+                $(this).remove();
+            });
+        });
+    </script>
+</body>
 </html>

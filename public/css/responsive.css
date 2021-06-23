@@ -1,0 +1,77 @@
+/* Medium Layout: 1200px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.hidden-xs {
+		display: none;
+	}
+	.img-responsive {
+		width: 100%;
+	}
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+	.navbar-default {
+		position: relative;
+		padding: 15px 10px 20px 10px;
+	}
+	.navbar-brand {
+		width: 60%;
+		margin-top: 0;
+	}
+	footer .logo {
+		width: 50%;
+	}
+	.carousel-caption h1 {
+		font-size: 25px;
+	}
+	.img-responsive {
+		width: 100%;
+	}
+	.carousel-caption {
+		top: 10%;
+	}
+	.video-section .ytube {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) { 
+	.navbar-brand {
+		width: 45%;
+		margin-top: 0;
+	}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 660px) { 
+	.carousel-caption p {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 480px) { 
+	.popular-section .col-xs-6,
+	.news-section .col-xs-6,
+	.gallery_product, .similar-section .col-xs-6 {
+		width: 100%;
+	}
+	.carousel-caption {
+		top: 20%;
+	}
+	.carousel-caption h1 {
+		font-size: 20px;
+	}
+	.carousel-caption p {
+		display: none;
+	}
+	.carousel-caption .btn-default1 {
+		display: none;
+	}
+}
