@@ -13,17 +13,25 @@ Turbolinks.start()
 ActiveStorage.start()
 import Vue from "vue/dist/vue.esm";
 import store from "../src/store/shop";
+
+import Toasted from "vue-toasted";
+
+import BootstrapVue from "bootstrap-vue";
+import "bootstrap-vue/dist/bootstrap-vue.css";
+
 document.addEventListener("DOMContentLoaded", () => {
   window.vm = new Vue({
     el: "#app",
     store: store,
     components: {
+      BootstrapVue,
       Loading: () => import("/app/javascript/src/components/Shared/Loading"),
       Sidebar: () => import("/app/javascript/src/components/Shared/Sidebar"),
       HeaderMenu: () => import("/app/javascript/src/components/Shared/Header"),
+      FooterIndex: () => import("/app/javascript/src/components/Shared/Footer"),
       HomeIndex: () => import("/app/javascript/src/components/Home/Index.vue"),
     },
   });
 
-  // Vue.use(Toasted, { theme: "bubble", duration: 2000 });
+  Vue.use(Toasted, { theme: "bubble", duration: 2000 });
 });

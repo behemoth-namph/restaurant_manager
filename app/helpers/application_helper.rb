@@ -7,18 +7,24 @@ module ApplicationHelper
     content_tag('loading', nil, options, false)
   end
 
-  def sidebar(route)
-    options = {
-      ":route": route.to_json
-    }
-
-    content_tag('sidebar', nil, options, false)
-  end
-
   def shop_header_menu
     options = {
     }
 
     content_tag('header-menu', nil, options, false)
+  end
+
+  def footer
+    options = {
+    }
+
+    content_tag('footer-index', nil, options, false)
+  end
+
+  def home_index
+    options = {
+    }
+
+    content_tag('home-index', nil, options, false)
   end
 end
