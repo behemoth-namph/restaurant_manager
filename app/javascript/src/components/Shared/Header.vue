@@ -149,116 +149,13 @@
               <nav>
                 <ul>
                   <li class="top-hover">
-                    <a href="index.html"
-                      >home <i class="ion-chevron-down"></i
-                    ></a>
-                    <ul class="submenu">
-                      <li><a href="index.html">home version 1</a></li>
-                      <li><a href="index-2.html">home version 2</a></li>
-                    </ul>
+                    <a href="/shop"> home </a>
                   </li>
-                  <li><a href="about-us.html">about</a></li>
-                  <li class="mega-menu-position top-hover">
-                    <a href="shop.html"
-                      >shop <i class="ion-chevron-down"></i
-                    ></a>
-                    <ul class="mega-menu">
-                      <li>
-                        <ul>
-                          <li class="mega-menu-title">
-                            <a href="#">Categories 01</a>
-                          </li>
-                          <li><a href="shop.html">salad</a></li>
-                          <li><a href="shop.html">sandwich</a></li>
-                          <li><a href="shop.html">bread</a></li>
-                          <li><a href="shop.html">steak</a></li>
-                          <li><a href="shop.html">tuna steak</a></li>
-                          <li><a href="shop.html">spaghetti </a></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <ul>
-                          <li class="mega-menu-title">
-                            <a href="#">Categories 02</a>
-                          </li>
-                          <li><a href="shop.html">rice</a></li>
-                          <li><a href="shop.html">pizza</a></li>
-                          <li><a href="shop.html">hamburger</a></li>
-                          <li><a href="shop.html">eggs</a></li>
-                          <li><a href="shop.html">sausages</a></li>
-                          <li><a href="shop.html">apple juice</a></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <ul>
-                          <li class="mega-menu-title">
-                            <a href="#">Categories 03</a>
-                          </li>
-                          <li><a href="shop.html">milk</a></li>
-                          <li><a href="shop.html">grape juice</a></li>
-                          <li><a href="shop.html">cookie</a></li>
-                          <li><a href="shop.html">candy</a></li>
-                          <li><a href="shop.html">cake</a></li>
-                          <li><a href="shop.html">cupcake</a></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <ul>
-                          <li class="mega-menu-title">
-                            <a href="#">Categories 04</a>
-                          </li>
-                          <li><a href="shop.html">pie</a></li>
-                          <li><a href="shop.html">stoberry</a></li>
-                          <li><a href="shop.html">sandwich</a></li>
-                          <li><a href="shop.html">bread</a></li>
-                          <li><a href="shop.html">steak</a></li>
-                          <li><a href="shop.html">hamburger</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="top-hover">
-                    <a href="blog-rightsidebar.html"
-                      >blog <i class="ion-chevron-down"></i
-                    ></a>
-                    <ul class="submenu">
-                      <li><a href="blog.html">Blog No sidebar</a></li>
-                      <li><a href="blog-rightsidebar.html">Blog sidebar</a></li>
-                      <li><a href="blog-details.html">Blog details</a></li>
-                      <li>
-                        <a href="blog-details-gallery.html"
-                          >Blog details gallery</a
-                        >
-                      </li>
-                      <li>
-                        <a href="blog-details-video.html">Blog details video</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="top-hover">
-                    <a href="#">pages <i class="ion-chevron-down"></i></a>
-                    <ul class="submenu">
-                      <li><a href="about-us.html">about us </a></li>
-                      <li><a href="shop.html">shop Grid</a></li>
-                      <li><a href="shop-list.html">shop list</a></li>
-                      <li>
-                        <a href="product-details.html">product details</a>
-                      </li>
-                      <li><a href="cart-page.html">cart page</a></li>
-                      <li><a href="checkout.html">checkout</a></li>
-                      <li><a href="wishlist.html">wishlist</a></li>
-                      <li><a href="my-account.html">my account</a></li>
-                      <li>
-                        <a href="login-register.html">login / register</a>
-                      </li>
-                      <li><a href="contact.html">contact</a></li>
-                      <li><a href="testimonial.html">Testimonials</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="contact.html">contact us</a></li>
-                  <li><a href="shop.html">burger</a></li>
-                  <li><a href="shop.html">pizza</a></li>
-                  <li><a href="shop.html">cold drink</a></li>
+                  <li><a href="/shop/about">about</a></li>
+                  <li><a href="/contact">contact us</a></li>
+                  <li><a href="/shop">burger</a></li>
+                  <li><a href="/shop">pizza</a></li>
+                  <li><a href="/shop">cold drink</a></li>
                 </ul>
               </nav>
             </div>

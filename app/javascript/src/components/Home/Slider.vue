@@ -10,12 +10,12 @@
       :autoplayTimeout="5000"
       animateOut="fadeOut"
       animateIn="fadeIn"
-      :navText=navText
+      :navText="navText"
       class="home-slider"
     >
       <div
         class="single-slider pt-210 pb-220 bg-img"
-        style="background-image:url(img/slider/slider-1.jpg);"
+        style="background-image:url(shop/img/slider/slider-2.jpg);"
       >
         <div class="container">
           <div class="slider-content slider-animated-1">
@@ -29,7 +29,7 @@
       </div>
       <div
         class="single-slider pt-210 pb-220 bg-img"
-        style="background-image:url(img/slider/slider-2.jpg);"
+        style="background-image:url(shop/img/slider/slider-1.jpg);"
       >
         <div class="container">
           <div class="slider-content slider-animated-1">
@@ -51,8 +51,11 @@ export default {
   components: { carousel },
   data() {
     return {
-      navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
-    }
+      navText: [
+        '<i class="fa fa-angle-left"></i>',
+        '<i class="fa fa-angle-right"></i>',
+      ],
+    };
   },
 };
 </script>

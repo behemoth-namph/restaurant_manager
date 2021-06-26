@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home-page">
     <Slider></Slider>
     <BannerTop></BannerTop>
     <ProductArea></ProductArea>
@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import Slider from "./Slider";
-import BannerTop from "./BannerTop";
-import ProductArea from "./ProductArea";
-import BannerCenter from "./BannerCenter";
-import BestFood from "./BestFood.vue";
-import BrandLogo from "./BrandLogo.vue";
+import Slider from "../../components/Home/Slider";
+import BannerTop from "../../components/Home/BannerTop";
+import ProductArea from "../../components/Home/ProductArea";
+import BannerCenter from "../../components/Home/BannerCenter";
+import BestFood from "../../components/Home/BestFood";
+import BrandLogo from "../../components/Shared/BrandLogo";
 
 export default {
   components: {

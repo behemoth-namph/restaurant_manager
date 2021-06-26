@@ -11,41 +11,16 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 
-    <!-- all css here -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/animate.css">
-    <link rel="stylesheet" href="/css/slick.css">
-    <link rel="stylesheet" href="/css/chosen.min.css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/simple-line-icons.css">
-    <link rel="stylesheet" href="/css/ionicons.min.css">
-    <link rel="stylesheet" href="/css/meanmenu.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
-
     <%= javascript_pack_tag 'application' %>
-        <%= stylesheet_pack_tag 'application' , media: 'all' %>
+    <%= stylesheet_pack_tag 'application' , media: 'all' %>
 </head>
 
 <body>
     <div id="app">
-        <%= shop_header_menu %>
-            <%= home_index %>
-                <%= footer %>
+    <%= shop_header_menu %>
+    <%= yield %>
+    <%= footer %>
     </div>
-
-
-
-
-    <!-- all js here -->
-    <script src="js/vendor/jquery-1.12.0.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-mail.js"></script>
-    <script src="js/plugins.js"></script>
 </body>
 
 </html>

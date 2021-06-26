@@ -26,7 +26,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-1.jpg" alt="" />
+                    <img src="shop/img/product/product-1.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -63,7 +63,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-2.jpg" alt="" />
+                    <img src="shop/img/product/product-2.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -99,7 +99,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-3.jpg" alt="" />
+                    <img src="shop/img/product/product-3.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -136,7 +136,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-4.jpg" alt="" />
+                    <img src="shop/img/product/product-4.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -172,7 +172,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-5.jpg" alt="" />
+                    <img src="shop/img/product/product-5.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -209,7 +209,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-6.jpg" alt="" />
+                    <img src="shop/img/product/product-6.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -245,7 +245,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-7.jpg" alt="" />
+                    <img src="shop/img/product/product-7.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -282,7 +282,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-8.jpg" alt="" />
+                    <img src="shop/img/product/product-8.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -318,7 +318,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-9.jpg" alt="" />
+                    <img src="shop/img/product/product-9.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -355,7 +355,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-10.jpg" alt="" />
+                    <img src="shop/img/product/product-10.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -395,7 +395,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-10.jpg" alt="" />
+                    <img src="shop/img/product/product-10.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -432,7 +432,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-9.jpg" alt="" />
+                    <img src="shop/img/product/product-9.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -468,7 +468,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-7.jpg" alt="" />
+                    <img src="shop/img/product/product-7.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -505,7 +505,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-8.jpg" alt="" />
+                    <img src="shop/img/product/product-8.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -541,7 +541,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-6.jpg" alt="" />
+                    <img src="shop/img/product/product-6.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -578,7 +578,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-5.jpg" alt="" />
+                    <img src="shop/img/product/product-5.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -614,7 +614,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-4.jpg" alt="" />
+                    <img src="shop/img/product/product-4.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -651,7 +651,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-3.jpg" alt="" />
+                    <img src="shop/img/product/product-3.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -687,7 +687,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-2.jpg" alt="" />
+                    <img src="shop/img/product/product-2.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -724,7 +724,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-1.jpg" alt="" />
+                    <img src="shop/img/product/product-1.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -764,7 +764,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-5.jpg" alt="" />
+                    <img src="shop/img/product/product-5.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -801,7 +801,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-4.jpg" alt="" />
+                    <img src="shop/img/product/product-4.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -837,7 +837,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-2.jpg" alt="" />
+                    <img src="shop/img/product/product-2.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -874,7 +874,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-3.jpg" alt="" />
+                    <img src="shop/img/product/product-3.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -910,7 +910,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-1.jpg" alt="" />
+                    <img src="shop/img/product/product-1.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -947,7 +947,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-10.jpg" alt="" />
+                    <img src="shop/img/product/product-10.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -983,7 +983,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-9.jpg" alt="" />
+                    <img src="shop/img/product/product-9.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -1020,7 +1020,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-7.jpg" alt="" />
+                    <img src="shop/img/product/product-7.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -1056,7 +1056,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-8.jpg" alt="" />
+                    <img src="shop/img/product/product-8.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">
@@ -1093,7 +1093,7 @@
               <div class="product-wrapper mb-25">
                 <div class="product-img">
                   <a href="product-details.html">
-                    <img src="img/product/product-5.jpg" alt="" />
+                    <img src="shop/img/product/product-5.jpg" alt="" />
                   </a>
                   <div class="product-action">
                     <div class="pro-action-left">

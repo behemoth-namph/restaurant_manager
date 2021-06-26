@@ -19,6 +19,19 @@ import Toasted from "vue-toasted";
 import BootstrapVue from "bootstrap-vue";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 
+// Import CSS
+import "../../../public/css/bootstrap.min.css";
+import "../../../public/css/animate.css";
+import "../../../public/css/slick.css";
+import "../../../public/css/chosen.min.css";
+import "../../../public/css/font-awesome.min.css";
+import "../../../public/css/simple-line-icons.css";
+import "../../../public/css/ionicons.min.css";
+import "../../../public/css/meanmenu.min.css";
+import "../../../public/css/style.css";
+import "../../../public/css/responsive.css";
+
+
 document.addEventListener("DOMContentLoaded", () => {
   window.vm = new Vue({
     el: "#app",
@@ -29,7 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
       Sidebar: () => import("/app/javascript/src/components/Shared/Sidebar"),
       HeaderMenu: () => import("/app/javascript/src/components/Shared/Header"),
       FooterIndex: () => import("/app/javascript/src/components/Shared/Footer"),
-      HomeIndex: () => import("/app/javascript/src/components/Home/Index.vue"),
+      HomeIndex: () => import("/app/javascript/src/pages/Shop/Home.vue"),
+      AboutIndex: () => import("/app/javascript/src/pages/Shop/About.vue"),
     },
   });
 

@@ -5,7 +5,7 @@
         <div class="best-food-width-1">
           <div class="single-banner">
             <div class="hover-style">
-              <a href="#"><img src="img/banner/banner-5.jpg" alt=""/></a>
+              <a href="#"><img src="shop/img/banner/banner-5.jpg" alt=""/></a>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-1.jpg" alt="" />
+                      <img src="shop/img/product/product-1.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -81,7 +81,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-2.jpg" alt="" />
+                      <img src="shop/img/product/product-2.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -115,7 +115,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-3.jpg" alt="" />
+                      <img src="shop/img/product/product-3.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -150,7 +150,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-4.jpg" alt="" />
+                      <img src="shop/img/product/product-4.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -200,7 +200,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-5.jpg" alt="" />
+                      <img src="shop/img/product/product-5.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -235,7 +235,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-6.jpg" alt="" />
+                      <img src="shop/img/product/product-6.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -269,7 +269,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-7.jpg" alt="" />
+                      <img src="shop/img/product/product-7.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -304,7 +304,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-8.jpg" alt="" />
+                      <img src="shop/img/product/product-8.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -354,7 +354,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-9.jpg" alt="" />
+                      <img src="shop/img/product/product-9.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -389,7 +389,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-10.jpg" alt="" />
+                      <img src="shop/img/product/product-10.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -423,7 +423,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-1.jpg" alt="" />
+                      <img src="shop/img/product/product-1.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -458,7 +458,7 @@
                 <div class="product-wrapper">
                   <div class="product-img">
                     <a href="product-details.html">
-                      <img src="img/product/product-2.jpg" alt="" />
+                      <img src="shop/img/product/product-2.jpg" alt="" />
                     </a>
                     <div class="product-action">
                       <div class="pro-action-left">
@@ -496,7 +496,7 @@
         <div class="best-food-width-1 mrg-small-35">
           <div class="single-banner">
             <div class="hover-style">
-              <a href="#"><img src="img/banner/banner-6.jpg" alt=""/></a>
+              <a href="#"><img src="shop/img/banner/banner-6.jpg" alt=""/></a>
             </div>
           </div>
         </div>
