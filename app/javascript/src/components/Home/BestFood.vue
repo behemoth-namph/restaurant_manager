@@ -552,6 +552,10 @@ export default {
         background: unset;
         cursor: pointer;
         border-radius: unset;
+
+        &:hover {
+          background: white;
+        }
       }
     }
   }
