@@ -5,7 +5,21 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 col-12 col-sm-4">
             <div class="welcome-area">
-              <p>Default welcome msg!</p>
+              <div class="runtext-container">
+                <div class="main-runtext">
+                  <marquee
+                    direction=""
+                    onmouseover="this.stop();"
+                    onmouseout="this.start();"
+                  >
+                    <div class="holder">
+                      <div class="text-container">
+                        Trang web đang trong quá trình phát triển. Nếu bạn có ý kiến gì muốn góp ý hãy liên lạc với <a href="https://www.facebook.com/u.chithethoi" target="_blank">chúng tôi</a>
+                      </div>
+                    </div>
+                  </marquee>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-lg-8 col-md-8 col-12 col-sm-8">
@@ -13,7 +27,7 @@
               <ul>
                 <li class="top-hover">
                   <a href="#"
-                    >Language: (ENG) <i class="ion-chevron-down"></i
+                    >Ngôn ngữ: (VN) <i class="ion-chevron-down"></i
                   ></a>
                   <ul>
                     <li><a href="#">Bangla </a></li>
