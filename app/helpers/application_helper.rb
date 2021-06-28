@@ -27,4 +27,11 @@ module ApplicationHelper
 
     content_tag('home-index', nil, options, false)
   end
+
+  def shop_breadcrumb
+    options = {
+    }
+
+    content_tag('breadcrumb', nil, options, false)
+  end
 end

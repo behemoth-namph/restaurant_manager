@@ -3,8 +3,9 @@
     <div class="container">
       <div class="breadcrumb-content">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="active">About us</li>
+          <li v-for="(item, index) in listItem" :key="index">
+            <a :href="item.link" :class="{active: item.isCurrent}">{{ item.name }}</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -12,5 +13,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    listItem: {
+      type: Array,
+      default: () => []
+    }
+  }
+};
 </script>

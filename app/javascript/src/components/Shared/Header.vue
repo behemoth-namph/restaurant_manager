@@ -18,7 +18,7 @@
                         Trang web đang trong quá trình phát triển. Nếu bạn muốn
                         góp ý hãy liên hệ với
                         <a
-                          href="https://www.facebook.com/u.chithethoi"
+                          href="https://www.facebook.com/hantinhnam"
                           target="_blank"
                           >chúng tôi</a
                         >
@@ -103,10 +103,10 @@
                     Cài đặt <i class="ion-chevron-down"></i
                   ></a>
                   <ul>
-                    <li><a href="wishlist.html"> Yêu thích </a></li>
-                    <li><a href="login-register.html"> Đăng nhập </a></li>
-                    <li><a href="login-register.html"> Đăng ký </a></li>
-                    <li><a href="my-account.html"> Tài khoản </a></li>
+                    <li><a href="/wishlist"> Yêu thích </a></li>
+                    <li><a href="/shop/login_register"> Đăng nhập </a></li>
+                    <li><a href="/shop/login_register"> Đăng ký </a></li>
+                    <li><a href="/my-account"> Tài khoản </a></li>
                   </ul>
                 </li>
               </ul>
@@ -128,7 +128,7 @@
           <div class="col-lg-9 col-md-8 col-12 col-sm-8">
             <div class="header-middle-right f-right">
               <div class="header-login">
-                <a href="login-register.html">
+                <a href="/shop/login_register">
                   <div class="header-icon-style">
                     <i class="icon-user icons"></i>
                   </div>
@@ -141,13 +141,13 @@
                 </a>
               </div>
               <div class="header-wishlist">
-                <a href="wishlist.html">
+                <a href="/wishlist">
                   <div class="header-icon-style">
                     <i class="icon-heart icons"></i>
                   </div>
                   <div class="wishlist-text">
                     <p>
-                      Yêu <br />
+                      Yêu<br />
                       <span>thích</span>
                     </p>
                   </div>

@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   namespace :shop do
     root to: "home#index"
     resources :about, only: %i[index]
+    resources :login_register, only: %i[index]
   end
 end

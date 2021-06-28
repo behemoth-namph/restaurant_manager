@@ -14,9 +14,8 @@
           </a>
         </div>
         <p>
-          Typi non habent claritatem insitam est usus legentis in qui facit
-          eorum claritatem, investigationes demonstraverunt lectores legere me
-          lius quod legunt saepius.
+          Chúng tôi luôn mang tới cho các bạn những hương vị thơm ngon nhất. <br>
+          Hãy chọn cho mình những món ăn yêu thích.
         </p>
       </div>
       <div class="tab-content jump">

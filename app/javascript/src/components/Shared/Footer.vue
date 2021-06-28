@@ -11,9 +11,7 @@
                 </a>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incidi ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam,
+                Đây là website giới thiệu sản phẩm chúng tôi sẽ cung cấp cho các bạn trong thời gian tới. Hãy đóng góp ý kiến để chúng tôi có thể phục vụ tốt nhu cầu của bạn.
               </p>
               <div class="payment-img">
                 <a href="#">
@@ -29,7 +27,7 @@
               </div>
               <div class="footer-content">
                 <ul>
-                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="shop/about">About Us</a></li>
                   <li><a href="#">Delivery Information</a></li>
                   <li><a href="#">Privacy Policy</a></li>
                   <li><a href="#">Terms & Conditions</a></li>
@@ -63,9 +61,9 @@
               </div>
               <div class="footer-contact">
                 <ul>
-                  <li>Address: 123 Main Street, Anytown, CA 12345 - USA.</li>
-                  <li>Telephone Enquiry: (012) 800 456 789-987</li>
-                  <li>Email: <a href="#">Info@example.com</a></li>
+                  <li>Địa chỉ: Phong Thái, Tiến Thuỷ, Quỳnh Lưu, Nghệ An</li>
+                  <li>Số điện thoại: (+84) 964 918 318</li>
+                  <li>Email: <a href="mailto:namhanyu@gmail.com">namhanyu@gmail.com</a></li>
                 </ul>
               </div>
               <div class="mt-35 footer-title mb-22">
@@ -74,9 +72,9 @@
               <div class="footer-time">
                 <ul>
                   <li>
-                    Open: <span>8:00 AM</span> - Close: <span>18:00 PM</span>
+                    Mở cửa: <span>8:00 Sáng</span> - Đóng cửa: <span>12:00 Tối</span>
                   </li>
-                  <li>Saturday - Sunday: <span>Close</span></li>
+                  <li>Tất cả các ngày trong tuần</li>
                 </ul>
               </div>
             </div>
@@ -89,7 +87,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-7">
             <div class="copyright">
-              <p>Copyright © <a href="#">Fudink.</a> . All Right Reserved.</p>
+              <p>Copyright © <a href="#">Chomcau</a> . All Right Reserved.</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-5">

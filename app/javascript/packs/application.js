@@ -42,8 +42,10 @@ document.addEventListener("DOMContentLoaded", () => {
       Sidebar: () => import("/app/javascript/src/components/Shared/Sidebar"),
       HeaderMenu: () => import("/app/javascript/src/components/Shared/Header"),
       FooterIndex: () => import("/app/javascript/src/components/Shared/Footer"),
-      HomeIndex: () => import("/app/javascript/src/pages/Shop/Home.vue"),
-      AboutIndex: () => import("/app/javascript/src/pages/Shop/About.vue"),
+      Breadcrumb: () => import("/app/javascript/src/components/Shared/Breadcrumb"),
+      HomeIndex: () => import("/app/javascript/src/pages/Shop/Home"),
+      AboutIndex: () => import("/app/javascript/src/pages/Shop/About"),
+      LoginRegisterIndex: () => import("/app/javascript/src/pages/Shop/LoginRegister"),
     },
   });
 
