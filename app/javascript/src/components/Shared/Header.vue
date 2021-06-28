@@ -11,10 +11,17 @@
                     direction=""
                     onmouseover="this.stop();"
                     onmouseout="this.start();"
+                    scrolldelay="50"
                   >
                     <div class="holder">
                       <div class="text-container">
-                        Trang web đang trong quá trình phát triển. Nếu bạn có ý kiến gì muốn góp ý hãy liên lạc với <a href="https://www.facebook.com/u.chithethoi" target="_blank">chúng tôi</a>
+                        Trang web đang trong quá trình phát triển. Nếu bạn muốn
+                        góp ý hãy liên hệ với
+                        <a
+                          href="https://www.facebook.com/u.chithethoi"
+                          target="_blank"
+                          >chúng tôi</a
+                        >
                       </div>
                     </div>
                   </marquee>
@@ -26,34 +33,80 @@
             <div class="account-curr-lang-wrap f-right">
               <ul>
                 <li class="top-hover">
-                  <a href="#"
-                    >Ngôn ngữ: (VN) <i class="ion-chevron-down"></i
+                  <a href="javascript:void(0);">
+                    Ngôn ngữ: (VN) <i class="ion-chevron-down"></i
                   ></a>
                   <ul>
-                    <li><a href="#">Bangla </a></li>
-                    <li><a href="#">Arabic</a></li>
-                    <li><a href="#">Hindi </a></li>
-                    <li><a href="#">Spanish</a></li>
+                    <li>
+                      <a
+                        href="javascript:void(0);"
+                        @click="showMessageLanguage"
+                      >
+                        ENG
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="javascript:void(0);"
+                        @click="showMessageLanguage"
+                      >
+                        日本
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="javascript:void(0);"
+                        @click="showMessageLanguage"
+                      >
+                        한국
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="javascript:void(0);"
+                        @click="showMessageLanguage"
+                      >
+                        中国
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 <li class="top-hover">
-                  <a href="#"
-                    >Currency: (USD) <i class="ion-chevron-down"></i
+                  <a href="javascript:void(0);">
+                    Tiền tệ: (VND) <i class="ion-chevron-down"></i
                   ></a>
                   <ul>
-                    <li><a href="#">Taka (BDT)</a></li>
-                    <li><a href="#">Riyal (SAR)</a></li>
-                    <li><a href="#">Rupee (INR)</a></li>
-                    <li><a href="#">Dirham (AED)</a></li>
+                    <li>
+                      <a href="javascript:void(0);" @click="showMessageCurrency"
+                        >USD ($)</a
+                      >
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" @click="showMessageCurrency"
+                        >円 (¥)</a
+                      >
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" @click="showMessageCurrency"
+                        >원 (원)</a
+                      >
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" @click="showMessageCurrency"
+                        >RMB (¥)</a
+                      >
+                    </li>
                   </ul>
                 </li>
                 <li class="top-hover">
-                  <a href="#">Setting <i class="ion-chevron-down"></i></a>
+                  <a href="javascript:void(0);">
+                    Cài đặt <i class="ion-chevron-down"></i
+                  ></a>
                   <ul>
-                    <li><a href="wishlist.html">Wishlist </a></li>
-                    <li><a href="login-register.html">Login</a></li>
-                    <li><a href="login-register.html">Register</a></li>
-                    <li><a href="my-account.html">my account</a></li>
+                    <li><a href="wishlist.html"> Yêu thích </a></li>
+                    <li><a href="login-register.html"> Đăng nhập </a></li>
+                    <li><a href="login-register.html"> Đăng ký </a></li>
+                    <li><a href="my-account.html"> Tài khoản </a></li>
                   </ul>
                 </li>
               </ul>
@@ -67,7 +120,7 @@
         <div class="row">
           <div class="col-lg-3 col-md-4 col-12 col-sm-4">
             <div class="logo">
-              <a href="index.html">
+              <a href="/shop">
                 <img alt="" src="img/logo/logo.png" />
               </a>
             </div>
@@ -81,8 +134,8 @@
                   </div>
                   <div class="login-text-content">
                     <p>
-                      Register <br />
-                      or <span>Sign in</span>
+                      Đăng ký <br />
+                      hoặc <span> Đăng nhập </span>
                     </p>
                   </div>
                 </a>
@@ -94,8 +147,8 @@
                   </div>
                   <div class="wishlist-text">
                     <p>
-                      Your <br />
-                      <span>Wishlist</span>
+                      Yêu <br />
+                      <span>thích</span>
                     </p>
                   </div>
                 </a>
@@ -107,7 +160,7 @@
                     <span class="count-style">02</span>
                   </div>
                   <div class="cart-text">
-                    <span class="digit">My Cart</span>
+                    <span class="digit"> Giỏ hàng </span>
                     <span class="cart-digit-bold">$209.00</span>
                   </div>
                 </a>
@@ -182,105 +235,35 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="mobile-menu">
-              <nav id="mobile-menu-active">
-                <ul class="menu-overflow" id="nav">
-                  <li>
-                    <a href="index.html">Home</a>
-                    <ul>
-                      <li><a href="index.html">home version 1</a></li>
-                      <li><a href="index-2.html">home version 2</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">pages</a>
-                    <ul>
-                      <li><a href="about-us.html">about us </a></li>
-                      <li><a href="shop.html">shop Grid</a></li>
-                      <li><a href="shop-list.html">shop list</a></li>
-                      <li>
-                        <a href="product-details.html">product details</a>
-                      </li>
-                      <li><a href="cart-page.html">cart page</a></li>
-                      <li><a href="checkout.html">checkout</a></li>
-                      <li><a href="wishlist.html">wishlist</a></li>
-                      <li><a href="my-account.html">my account</a></li>
-                      <li>
-                        <a href="login-register.html">login / register</a>
-                      </li>
-                      <li><a href="contact.html">contact</a></li>
-                      <li><a href="testimonial.html">Testimonials</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="shop.html"> Shop </a>
-                    <ul>
-                      <li>
-                        <a href="#">Categories 01</a>
-                        <ul>
-                          <li><a href="shop.html">salad</a></li>
-                          <li><a href="shop.html">sandwich</a></li>
-                          <li><a href="shop.html">bread</a></li>
-                          <li><a href="shop.html">steak</a></li>
-                          <li><a href="shop.html">tuna steak</a></li>
-                          <li><a href="shop.html">spaghetti </a></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">Categories 02</a>
-                        <ul>
-                          <li><a href="shop.html">rice</a></li>
-                          <li><a href="shop.html">pizza</a></li>
-                          <li><a href="shop.html">hamburger</a></li>
-                          <li><a href="shop.html">eggs</a></li>
-                          <li><a href="shop.html">sausages</a></li>
-                          <li><a href="shop.html">apple juice</a></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">Categories 03</a>
-                        <ul>
-                          <li><a href="shop.html">milk</a></li>
-                          <li><a href="shop.html">grape juice</a></li>
-                          <li><a href="shop.html">cookie</a></li>
-                          <li><a href="shop.html">candy</a></li>
-                          <li><a href="shop.html">cake</a></li>
-                          <li><a href="shop.html">cupcake</a></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">Categories 04</a>
-                        <ul>
-                          <li><a href="shop.html">pie</a></li>
-                          <li><a href="shop.html">stoberry</a></li>
-                          <li><a href="shop.html">sandwich</a></li>
-                          <li><a href="shop.html">bread</a></li>
-                          <li><a href="shop.html">steak</a></li>
-                          <li><a href="shop.html">hamburger</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="blog-rightsidebar.html">blog</a>
-                    <ul>
-                      <li><a href="blog.html">Blog No sidebar</a></li>
-                      <li><a href="blog-rightsidebar.html">Blog sidebar</a></li>
-                      <li><a href="blog-details.html">Blog details</a></li>
-                      <li>
-                        <a href="blog-details-gallery.html"
-                          >Blog details gallery</a
-                        >
-                      </li>
-                      <li>
-                        <a href="blog-details-video.html">Blog details video</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="contact.html">contact us</a></li>
-                  <li><a href="shop.html">burger</a></li>
-                </ul>
-              </nav>
+            <div class="mobile-menu mean-container">
+              <div class="mean-bar">
+                <a
+                  href="javascript:void(0);"
+                  class="meanmenu-reveal"
+                  style="right: 0px; left: auto; text-align: center; text-indent: 0px; font-size: 18px;"
+                  @click="showMenuSP"
+                  ><span></span><span></span><span></span
+                ></a>
+                <nav class="mean-nav">
+                  <ul
+                    class="menu-overflow"
+                    id="nav"
+                    style="display: none;"
+                    :class="{ 'd-block': isShowMenuSP }"
+                  >
+                    <li>
+                      <a href="/shop">Home</a>
+                    </li>
+                    <li>
+                      <a href="/shop/about">About</a>
+                    </li>
+                    <li><a href="/shop/contact">Contact us</a></li>
+                    <li><a href="/shop">burger</a></li>
+                    <li><a href="/shop">pizza</a></li>
+                    <li><a href="/shop">cold drink</a></li>
+                  </ul>
+                </nav>
+              </div>
             </div>
           </div>
         </div>
@@ -290,5 +273,26 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      isShowMenuSP: false,
+    };
+  },
+  methods: {
+    showMessageLanguage() {
+      this.$toasted.success(
+        "Ngôn ngữ chưa được hỗ trợ. Chúng tôi sẽ cập nhật trong tương lai"
+      );
+    },
+    showMessageCurrency() {
+      this.$toasted.success(
+        "Tiền tệ chưa được hỗ trợ. Chúng tôi sẽ cập nhật trong tương lai"
+      );
+    },
+    showMenuSP() {
+      this.isShowMenuSP = !this.isShowMenuSP;
+    },
+  },
+};
 </script>

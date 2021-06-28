@@ -269,7 +269,6 @@
     }
     .mobile-menu .mean-nav ul.menu-overflow {
         height: 248px;
-        margin-top: 10px;
         overflow-y: auto;
     }
 }
@@ -722,7 +721,6 @@
     }
     .mobile-menu .mean-nav ul.menu-overflow {
         height: 248px;
-        margin-top: 10px;
         overflow-y: auto;
     }
     #exampleModal .modal-dialog {
