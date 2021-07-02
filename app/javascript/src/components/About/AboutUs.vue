@@ -11,7 +11,7 @@
         </div>
         <div class="col-lg-6 col-md-7 d-flex align-items-center">
           <div class="overview-content-2">
-            <h2>Chào mừng tới với <span>Fudink</span> Store !</h2>
+            <h2>Chào mừng tới với <span>Fudink</span> !</h2>
             <p>
               Fudink Shop là một website mang tới cho khách hàng rất nhiều món ăn mới lạ bên cạnh những món ăn truyền thống được chế biến cực kỳ xuất sắc.
               Hãy lựa chọn cho mình những món ăn ưa thích. Chúng tôi sẽ phục vụ các bạn
