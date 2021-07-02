@@ -22,7 +22,7 @@
             <h1 class="animated">Drink & Heathy Food</h1>
             <h3 class="animated">Fresh Heathy and Organic.</h3>
             <div class="slider-btn mt-90">
-              <a class="animated" href="product-details.html">Order Now</a>
+              <a class="animated" href="#">Order Now</a>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@
             <h1 class="animated">Drink & Heathy Food</h1>
             <h3 class="animated">Fresh Heathy and Organic.</h3>
             <div class="slider-btn mt-90">
-              <a class="animated" href="product-details.html">Order Now</a>
+              <a class="animated" href="#">Order Now</a>
             </div>
           </div>
         </div>

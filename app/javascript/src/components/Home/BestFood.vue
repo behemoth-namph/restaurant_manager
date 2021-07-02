@@ -45,7 +45,7 @@
               >
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-1.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -70,7 +70,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$100.00</span>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-2.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -105,7 +105,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$200.00</span>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-3.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -139,7 +139,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$90.00</span>
@@ -149,7 +149,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-4.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -174,7 +174,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$50.00</span>
@@ -199,7 +199,7 @@
               >
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-5.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -224,7 +224,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$100.00</span>
@@ -234,7 +234,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-6.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -259,7 +259,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$200.00</span>
@@ -268,7 +268,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-7.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -293,7 +293,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$90.00</span>
@@ -303,7 +303,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-8.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -328,7 +328,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$50.00</span>
@@ -353,7 +353,7 @@
               >
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-9.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -378,7 +378,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$100.00</span>
@@ -388,7 +388,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-10.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -413,7 +413,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$200.00</span>
@@ -422,7 +422,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-1.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -447,7 +447,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$90.00</span>
@@ -457,7 +457,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="product-details.html">
+                    <a href="#">
                       <img src="shop/img/product/product-2.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -482,7 +482,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-details.html">PRODUCTS NAME HERE </a>
+                      <a href="#">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$50.00</span>

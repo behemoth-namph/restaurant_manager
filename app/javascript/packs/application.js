@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
       Breadcrumb: () => import("/app/javascript/src/components/Shared/Breadcrumb"),
       HomeIndex: () => import("/app/javascript/src/pages/Shop/Home"),
       AboutIndex: () => import("/app/javascript/src/pages/Shop/About"),
+      WishlistIndex: () => import("/app/javascript/src/pages/Shop/Wishlist"),
       LoginRegisterIndex: () => import("/app/javascript/src/pages/Shop/LoginRegister"),
     },
   });

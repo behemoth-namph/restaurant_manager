@@ -103,7 +103,7 @@
                     Cài đặt <i class="ion-chevron-down"></i
                   ></a>
                   <ul>
-                    <li><a href="/wishlist"> Yêu thích </a></li>
+                    <li><a href="/shop/wishlist"> Yêu thích </a></li>
                     <li><a href="/shop/login_register"> Đăng nhập </a></li>
                     <li><a href="/shop/login_register"> Đăng ký </a></li>
                     <li><a href="/my-account"> Tài khoản </a></li>
@@ -141,7 +141,7 @@
                 </a>
               </div>
               <div class="header-wishlist">
-                <a href="/wishlist">
+                <a href="/shop/wishlist">
                   <div class="header-icon-style">
                     <i class="icon-heart icons"></i>
                   </div>
@@ -219,10 +219,10 @@
                     <a href="/shop"> home </a>
                   </li>
                   <li><a href="/shop/about">about</a></li>
-                  <li><a href="/contact">contact us</a></li>
-                  <li><a href="/shop">burger</a></li>
-                  <li><a href="/shop">pizza</a></li>
-                  <li><a href="/shop">cold drink</a></li>
+                  <li><a href="/shop/contact">contact us</a></li>
+                  <li><a href="/shop/product">burger</a></li>
+                  <li><a href="/shop/product">pizza</a></li>
+                  <li><a href="/shop/product">cold drink</a></li>
                 </ul>
               </nav>
             </div>
