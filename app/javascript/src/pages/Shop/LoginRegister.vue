@@ -6,10 +6,10 @@
           <div class="login-register-wrapper">
             <div class="login-register-tab-list nav">
               <a :class="{active: isLogin}" href="javascript:void(0);" @click="isLogin = true">
-                <h4>login</h4>
+                <h4>Đăng nhập</h4>
               </a>
               <a :class="{active: !isLogin}" href="javascript:void(0);" @click="isLogin = false">
-                <h4>register</h4>
+                <h4>Đăng ký</h4>
               </a>
             </div>
             <div class="tab-content">
@@ -20,20 +20,20 @@
                       <input
                         type="text"
                         name="user-name"
-                        placeholder="Username"
+                        placeholder="Tên đăng nhập"
                       />
                       <input
                         type="password"
                         name="user-password"
-                        placeholder="Password"
+                        placeholder="Mật khẩu"
                       />
                       <div class="button-box">
                         <div class="login-toggle-btn">
                           <input type="checkbox" />
-                          <label>Remember me</label>
-                          <a href="#">Forgot Password?</a>
+                          <label>Nhớ mật khẩu</label>
+                          <a href="#">Quên mật khẩu?</a>
                         </div>
-                        <button type="submit"><span>Login</span></button>
+                        <button type="submit" @click.prevent="logMessage"><span>Đăng nhập</span></button>
                       </div>
                     </form>
                   </div>
@@ -46,12 +46,12 @@
                       <input
                         type="text"
                         name="user-name"
-                        placeholder="Username"
+                        placeholder="Tên đăng nhập"
                       />
                       <input
                         type="password"
                         name="user-password"
-                        placeholder="Password"
+                        placeholder="Mật khẩu"
                       />
                       <input
                         name="user-email"
@@ -59,7 +59,7 @@
                         type="email"
                       />
                       <div class="button-box">
-                        <button type="submit"><span>Register</span></button>
+                        <button type="submit" @click.prevent="logMessage"><span>Đăng ký</span></button>
                       </div>
                     </form>
                   </div>
@@ -79,6 +79,11 @@ export default {
   data() {
     return {
       isLogin: true,
+    }
+  },
+  methods: {
+    logMessage() {
+      this.$toasted.success("Chức năg đang trong quá trình phát triển.");
     }
   },
 };

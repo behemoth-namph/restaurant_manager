@@ -8,8 +8,8 @@
               <span class="ion-ios-briefcase-outline"></span>
             </div>
             <div class="count-title">
-              <h2 class="count">360</h2>
-              <span>project done</span>
+              <h2 class="count">27</h2>
+              <span>món ăn</span>
             </div>
           </div>
         </div>
@@ -19,8 +19,8 @@
               <span class="ion-ios-wineglass-outline"></span>
             </div>
             <div class="count-title">
-              <h2 class="count">690</h2>
-              <span>cups of coffee</span>
+              <h2 class="count">20</h2>
+              <span>loại đồ uống</span>
             </div>
           </div>
         </div>
@@ -30,8 +30,8 @@
               <span class="ion-ios-lightbulb-outline"></span>
             </div>
             <div class="count-title">
-              <h2 class="count">420</h2>
-              <span>branding</span>
+              <h2 class="count">10</h2>
+              <span>ý tưởng kinh doanh</span>
             </div>
           </div>
         </div>
@@ -41,8 +41,8 @@
               <span class="ion-happy-outline"></span>
             </div>
             <div class="count-title">
-              <h2 class="count">100</h2>
-              <span>happy clients</span>
+              <h2 class="count">1000</h2>
+              <span>lượt khách hàng</span>
             </div>
           </div>
         </div>

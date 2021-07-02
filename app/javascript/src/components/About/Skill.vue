@@ -6,12 +6,12 @@
           <div class="skill-wrapper">
             <div class="section-border section-mrg-none mb-45">
               <div class="section-title-wrap">
-                <h3 class="section-title section-bg-white">Our skills</h3>
+                <h3 class="section-title section-bg-white">Kĩ năng nấu nướng</h3>
               </div>
             </div>
             <div class="skill">
               <div class="progress">
-                <div class="lead">Marketing</div>
+                <div class="lead">Món tây</div>
                 <div
                   class="progress-bar wow fadeInLeft"
                   data-progress="50%"
@@ -23,7 +23,7 @@
                 </div>
               </div>
               <div class="progress">
-                <div class="lead">Wordpress Theme</div>
+                <div class="lead">Món nhậu bình dân</div>
                 <div
                   class="progress-bar wow fadeInLeft"
                   data-progress="60%"
@@ -35,7 +35,7 @@
                 </div>
               </div>
               <div class="progress">
-                <div class="lead">Shopify Theme</div>
+                <div class="lead">Đồ ăn nhanh</div>
                 <div
                   class="progress-bar wow fadeInLeft"
                   data-progress="70%"
@@ -47,7 +47,7 @@
                 </div>
               </div>
               <div class="progress">
-                <div class="lead">UI/UX Design</div>
+                <div class="lead">Đồ uống</div>
                 <div
                   class="progress-bar wow fadeInLeft"
                   data-progress="80%"
@@ -65,7 +65,7 @@
           <div class="our-work-wrapper">
             <div class="section-border section-mrg-none mb-45">
               <div class="section-title-wrap">
-                <h3 class="section-title section-bg-white">Our Work</h3>
+                <h3 class="section-title section-bg-white">Chúng tôi có gì</h3>
               </div>
             </div>
             <div class="work-list">
@@ -74,46 +74,42 @@
                   <span>1</span>
                 </div>
                 <div class="work-content">
-                  <h5>LOREM IPSUM DOLOR SIT AMET</h5>
+                  <h5>Nguyên liệu tươi ngon</h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Praesent eu nisi ac mi
+                    Đây luôn là niềm tự hào và thế mạnh của chúng tôi
                   </p>
                 </div>
               </div>
               <div class="single-work">
                 <div class="work-number">
-                  <span>1</span>
+                  <span>2</span>
                 </div>
                 <div class="work-content">
-                  <h5>LOREM IPSUM DOLOR SIT AMET</h5>
+                  <h5>Món ăn đa dạng</h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Praesent eu nisi ac mi
+                    Thực đơn mới lạ và phong phú sẽ khiến bạn bất ngờ
                   </p>
                 </div>
               </div>
               <div class="single-work">
                 <div class="work-number">
-                  <span>1</span>
+                  <span>3</span>
                 </div>
                 <div class="work-content">
-                  <h5>LOREM IPSUM DOLOR SIT AMET</h5>
+                  <h5>Phương pháp phục vụ</h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Praesent eu nisi ac mi
+                    Nhân viên trẻ tràn đầy nhiệt huyết và luôn tận tâm với khách hàng
                   </p>
                 </div>
               </div>
               <div class="single-work">
                 <div class="work-number">
-                  <span>1</span>
+                  <span>4</span>
                 </div>
                 <div class="work-content">
-                  <h5>LOREM IPSUM DOLOR SIT AMET</h5>
+                  <h5>Không gian quán</h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Praesent eu nisi ac mi
+                    Không gian hiện đại với nhiều khu vực check in cực đẹp, cực lạ
                   </p>
                 </div>
               </div>
