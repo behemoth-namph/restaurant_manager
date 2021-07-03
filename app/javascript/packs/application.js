@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
       HomeIndex: () => import("/app/javascript/src/pages/Shop/Home"),
       AboutIndex: () => import("/app/javascript/src/pages/Shop/About"),
       WishlistIndex: () => import("/app/javascript/src/pages/Shop/Wishlist"),
+      ContactIndex: () => import("/app/javascript/src/pages/Shop/Contact"),
       LoginRegisterIndex: () => import("/app/javascript/src/pages/Shop/LoginRegister"),
     },
   });

@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     root to: "home#index"
     resources :about, only: %i[index]
     resources :wishlist, only: %i[index]
+    resources :contact, only: %i[index]
     resources :login_register, only: %i[index]
   end
 end
