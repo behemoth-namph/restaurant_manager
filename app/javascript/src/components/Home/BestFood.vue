@@ -5,7 +5,9 @@
         <div class="best-food-width-1">
           <div class="single-banner">
             <div class="hover-style">
-              <a href="#"><img src="shop/img/banner/banner-5.jpg" alt=""/></a>
+              <a href="/shop/product/1"
+                ><img src="shop/img/banner/banner-5.jpg" alt=""
+              /></a>
             </div>
           </div>
         </div>
@@ -17,19 +19,19 @@
               </h3>
             </div>
             <div class="product-tab-list-2 nav section-bg-white">
-              <a class="active" href="#tab4" data-toggle="tab">
+              <a href="javascript:void(0);" @click="tab = 1" data-toggle="tab">
                 <h4>All</h4>
               </a>
-              <a href="#tab5" data-toggle="tab">
+              <a href="javascript:void(0);" @click="tab = 2" data-toggle="tab">
                 <h4>Food</h4>
               </a>
-              <a href="#tab6" data-toggle="tab">
+              <a href="javascript:void(0);" @click="tab = 3" data-toggle="tab">
                 <h4>Drink</h4>
               </a>
             </div>
           </div>
           <div class="tab-content jump">
-            <div id="tab4" class="tab-pane active">
+            <div id="tab4" class="tab-pane" :class="{ active: tab == 1 }">
               <carousel
                 :items="3"
                 :autoplay="false"
@@ -45,7 +47,7 @@
               >
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-1.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -70,7 +72,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$100.00</span>
@@ -80,7 +82,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-2.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -105,7 +107,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$200.00</span>
@@ -114,7 +116,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-3.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -139,7 +141,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$90.00</span>
@@ -149,7 +151,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-4.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -174,7 +176,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$50.00</span>
@@ -183,7 +185,7 @@
                 </div>
               </carousel>
             </div>
-            <div id="tab5" class="tab-pane">
+            <div id="tab5" class="tab-pane" :class="{ active: tab == 2 }">
               <carousel
                 :items="3"
                 :autoplay="false"
@@ -199,7 +201,7 @@
               >
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-5.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -224,7 +226,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$100.00</span>
@@ -234,7 +236,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-6.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -259,7 +261,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$200.00</span>
@@ -268,7 +270,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-7.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -293,7 +295,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$90.00</span>
@@ -303,7 +305,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-8.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -328,7 +330,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$50.00</span>
@@ -337,7 +339,7 @@
                 </div>
               </carousel>
             </div>
-            <div id="tab6" class="tab-pane">
+            <div id="tab6" class="tab-pane" :class="{ active: tab == 3 }">
               <carousel
                 :items="3"
                 :autoplay="false"
@@ -353,7 +355,7 @@
               >
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-9.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -378,7 +380,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$100.00</span>
@@ -388,7 +390,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-10.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -413,7 +415,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$200.00</span>
@@ -422,7 +424,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-1.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -447,7 +449,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$90.00</span>
@@ -457,7 +459,7 @@
                 </div>
                 <div class="product-wrapper">
                   <div class="product-img">
-                    <a href="#">
+                    <a href="/shop/product/1">
                       <img src="shop/img/product/product-2.jpg" alt="" />
                     </a>
                     <div class="product-action">
@@ -482,7 +484,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="#">PRODUCTS NAME HERE </a>
+                      <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                     </h4>
                     <div class="product-price-wrapper">
                       <span>$50.00</span>
@@ -496,7 +498,9 @@
         <div class="best-food-width-1 mrg-small-35">
           <div class="single-banner">
             <div class="hover-style">
-              <a href="#"><img src="shop/img/banner/banner-6.jpg" alt=""/></a>
+              <a href="/shop/product/1"
+                ><img src="shop/img/banner/banner-6.jpg" alt=""
+              /></a>
             </div>
           </div>
         </div>
@@ -511,6 +515,7 @@ export default {
   components: { carousel },
   data() {
     return {
+      tab: 1,
       navText: [
         '<i class="ion-ios-arrow-back"></i>',
         '<i class="ion-ios-arrow-forward"></i>',

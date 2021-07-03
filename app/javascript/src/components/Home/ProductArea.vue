@@ -3,28 +3,44 @@
     <div class="custom-container">
       <div class="product-tab-list-wrap text-center mb-40">
         <div class="product-tab-list nav">
-          <a class="active" href="#tab1" data-toggle="tab">
+          <a
+            :class="{ active: tab == 1 }"
+            href="javascript:void(0);"
+            @click="tab = 1"
+            data-toggle="tab"
+          >
             <h4>All</h4>
           </a>
-          <a href="#tab2" data-toggle="tab">
+          <a
+            :class="{ active: tab == 2 }"
+            href="javascript:void(0);"
+            @click="tab = 2"
+            data-toggle="tab"
+          >
             <h4>Food</h4>
           </a>
-          <a href="#tab3" data-toggle="tab">
+          <a
+            :class="{ active: tab == 3 }"
+            href="javascript:void(0);"
+            @click="tab = 3"
+            data-toggle="tab"
+          >
             <h4>Drink</h4>
           </a>
         </div>
         <p>
-          Chúng tôi luôn mang tới cho các bạn những hương vị thơm ngon nhất. <br>
+          Chúng tôi luôn mang tới cho các bạn những hương vị thơm ngon nhất.
+          <br />
           Hãy chọn cho mình những món ăn yêu thích.
         </p>
       </div>
       <div class="tab-content jump">
-        <div id="tab1" class="tab-pane active">
+        <div id="tab1" class="tab-pane" :class="{ active: tab == 1 }">
           <div class="row">
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-1.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -34,7 +50,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -49,7 +65,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$100.00</span>
@@ -61,7 +77,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-2.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -71,7 +87,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -86,7 +102,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$200.00</span>
@@ -97,7 +113,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-3.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -107,7 +123,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -122,7 +138,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$90.00</span>
@@ -134,7 +150,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-4.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -144,7 +160,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -159,7 +175,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$50.00</span>
@@ -170,7 +186,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-5.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -180,7 +196,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -195,7 +211,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$60.00</span>
@@ -207,7 +223,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-6.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -217,7 +233,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -232,7 +248,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$190.00</span>
@@ -243,7 +259,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-7.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -253,7 +269,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -268,7 +284,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$150.00</span>
@@ -280,7 +296,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-8.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -290,7 +306,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -305,7 +321,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$80.00</span>
@@ -316,7 +332,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-9.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -326,7 +342,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -341,7 +357,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$180.00</span>
@@ -353,7 +369,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-10.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -363,7 +379,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -378,7 +394,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$70.00</span>
@@ -388,12 +404,12 @@
             </div>
           </div>
         </div>
-        <div id="tab2" class="tab-pane">
+        <div id="tab2" class="tab-pane" :class="{ active: tab == 2 }">
           <div class="row">
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-10.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -403,7 +419,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -418,7 +434,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$100.00</span>
@@ -430,7 +446,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-9.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -440,7 +456,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -455,7 +471,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$200.00</span>
@@ -466,7 +482,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-7.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -476,7 +492,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -491,7 +507,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$90.00</span>
@@ -503,7 +519,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-8.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -513,7 +529,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -528,7 +544,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$50.00</span>
@@ -539,7 +555,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-6.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -549,7 +565,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -564,7 +580,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$60.00</span>
@@ -576,7 +592,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-5.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -586,7 +602,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -601,7 +617,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$190.00</span>
@@ -612,7 +628,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-4.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -622,7 +638,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -637,7 +653,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$150.00</span>
@@ -649,7 +665,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-3.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -659,7 +675,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -674,7 +690,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$80.00</span>
@@ -685,7 +701,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-2.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -695,7 +711,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -710,7 +726,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$180.00</span>
@@ -722,7 +738,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-1.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -732,7 +748,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -747,7 +763,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$70.00</span>
@@ -757,12 +773,12 @@
             </div>
           </div>
         </div>
-        <div id="tab3" class="tab-pane">
+        <div id="tab3" class="tab-pane" :class="{ active: tab == 3 }">
           <div class="row">
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-5.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -772,7 +788,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -787,7 +803,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$100.00</span>
@@ -799,7 +815,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-4.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -809,7 +825,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -824,7 +840,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$200.00</span>
@@ -835,7 +851,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-2.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -845,7 +861,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -860,7 +876,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$90.00</span>
@@ -872,7 +888,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-3.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -882,7 +898,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -897,7 +913,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$50.00</span>
@@ -908,7 +924,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-1.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -918,7 +934,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -933,7 +949,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$60.00</span>
@@ -945,7 +961,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-10.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -955,7 +971,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -970,7 +986,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$190.00</span>
@@ -981,7 +997,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-9.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -991,7 +1007,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -1006,7 +1022,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$150.00</span>
@@ -1018,7 +1034,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-7.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -1028,7 +1044,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -1043,7 +1059,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$80.00</span>
@@ -1054,7 +1070,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-8.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -1064,7 +1080,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -1079,7 +1095,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$180.00</span>
@@ -1091,7 +1107,7 @@
             <div class="custom-col-5">
               <div class="product-wrapper mb-25">
                 <div class="product-img">
-                  <a href="#">
+                  <a href="/shop/product/1">
                     <img src="shop/img/product/product-5.jpg" alt="" />
                   </a>
                   <div class="product-action">
@@ -1101,7 +1117,7 @@
                       >
                     </div>
                     <div class="pro-action-right">
-                      <a title="Wishlist" href="wishlist.html"
+                      <a title="Wishlist" href="/shop/wishlist"
                         ><i class="ion-ios-heart-outline"></i
                       ></a>
                       <a
@@ -1116,7 +1132,7 @@
                 </div>
                 <div class="product-content">
                   <h4>
-                    <a href="#">PRODUCTS NAME HERE </a>
+                    <a href="/shop/product/1">PRODUCTS NAME HERE </a>
                   </h4>
                   <div class="product-price-wrapper">
                     <span>$70.00</span>
@@ -1132,5 +1148,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      tab: 1,
+    };
+  },
+};
 </script>

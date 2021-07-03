@@ -9,7 +9,7 @@
           <h3>It’s Time To Start <br />Your Own Revolution By Laurent</h3>
           <p>Exclusive Offer -10% Off This Week</p>
           <div class="banner-btn">
-            <a href="#">Order Now</a>
+            <a href="/shop/product/1">Order Now</a>
           </div>
         </div>
       </div>

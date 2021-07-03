@@ -24,7 +24,7 @@
               Hãy đến với chúng tôi để cảm nhận sự tinh tuý trong từng món ăn. Và góp ý với chúng tôi để có thể mang lại những trải nghiệm tốt nhất cho bạn
             </p>
             <div class="overview-btn mt-45">
-              <a class="btn-style-2" href="shop.html">Đặt món ngay !</a>
+              <a class="btn-style-2" href="/shop/product">Đặt món ngay !</a>
             </div>
           </div>
         </div>
