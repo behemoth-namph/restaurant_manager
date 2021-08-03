@@ -1,0 +1,17 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table "variants", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  t.integer "product_id", null: false
+  t.integer "state", null: false, default: 0
+  t.string "name", null: false
+  t.boolean "is_master", default: false, null: false
+  t.bigint "price", null: false
+  t.bigint "sales_price", null: false
+  t.boolean "has_stock", default: false, null: false
+  t.integer "stock", default: 0
+  t.datetime "created_at", null: false
+  t.datetime "updated_at", null: false
+  t.datetime "deleted_at"
+  t.integer "lock_version", default: 0, null: false
+  t.index ["product_id"]
+end

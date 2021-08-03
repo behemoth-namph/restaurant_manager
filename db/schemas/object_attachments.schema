@@ -1,0 +1,12 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table "object_attachments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  t.bigint "object_id", null: false
+  t.string "object_type", null: false
+  t.bigint "attachment_id", null: false
+  t.integer "position", default: 0
+  t.integer "lock_version", default: 0, null: false
+  t.datetime "created_at", null: false
+  t.datetime "updated_at", null: false
+  t.index ["object_id", "object_type", "attachment_id"], name: "index_object_attachments_on_object_id_and_attachment_id", unique: true
+end

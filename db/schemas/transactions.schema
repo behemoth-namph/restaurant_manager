@@ -1,0 +1,12 @@
+create_table "transactions", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  t.bigint :order_id
+  t.integer :card_id
+  t.integer :state, null: false
+  t.string :holder_name
+  t.string :number
+  t.bigint :amount, null: false
+  t.text :reason
+  t.text :description
+  t.integer :attachment_id, null: true
+  t.timestamps
+end

@@ -1,0 +1,28 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table "orders", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  t.integer "user_id", null: false
+  t.integer "shop_id", null: false
+  t.integer "state", null: false
+  t.string "number"
+  t.bigint "subtotal", default: 0, null: false
+  t.bigint "discount", default: 0, null: false
+  t.integer "delivery_fee", default: 0, null: false
+  t.bigint "tax", default: 0, null: false
+  t.bigint "total", default: 0, null: false
+  t.datetime "confirmed_at"
+  t.datetime "paid_at"
+  t.datetime "checkout_at"
+  t.datetime "payment_at"
+  t.datetime "completed_at"
+  t.datetime "shipped_at"
+  t.datetime "canceled_at"
+  t.datetime "created_at", null: false
+  t.datetime "updated_at", null: false
+  t.datetime "deleted_at"
+  t.integer "lock_version", default: 0, null: false
+  t.index ["shop_id", "user_id"]
+  t.index ["shop_id"]
+  t.index ["user_id"]
+  t.index ["number"], unique: true
+end

@@ -1,0 +1,16 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table "addresses", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  t.string "full_name"
+  t.string "phone"
+  t.string "region"
+  t.string "district"
+  t.string "ward"
+  t.string "street"
+  t.boolean "is_default"
+  t.integer :addressable_id, null: false
+  t.string :addressable_type, null: false
+  t.datetime "created_at"
+  t.datetime "updated_at"
+end

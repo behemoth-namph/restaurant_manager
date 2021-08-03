@@ -1,0 +1,10 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table "address_wards", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  t.string "name", collation: "utf8_bin"
+  t.datetime "created_at"
+  t.datetime "updated_at"
+  t.integer "address_district_id"
+  t.index ["address_district_id", "name"], name: "index_address_wards_on_address_district_id_and_name", unique: true
+end

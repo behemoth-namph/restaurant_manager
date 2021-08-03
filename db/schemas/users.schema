@@ -1,0 +1,27 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  t.bigint "shop_id"
+  t.string "code", null: false
+  t.string "name"
+  t.string "email", null: false
+  t.date "birthday"
+  t.integer "gender"
+  t.string "encrypted_password", null: false
+  t.string "reset_password_token"
+  t.datetime "reset_password_sent_at"
+  t.datetime "remember_created_at"
+  t.string   "confirmation_token"
+  t.datetime "confirmed_at"
+  t.datetime "confirmation_sent_at"
+  t.string   "unconfirmed_email"
+  t.datetime "created_at", null: false
+  t.datetime "updated_at", null: false
+  t.datetime "deleted_at"
+  t.integer "lock_version", default: 0, null: false
+
+  t.index ["email"], unique: true
+  t.index ["reset_password_token"], unique: true
+  t.index ["confirmation_token"], unique: true
+  t.index ["code"], unique: true
+end

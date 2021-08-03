@@ -1,0 +1,10 @@
+create_table "favorites", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  t.integer "user_id", null: false
+  t.integer "product_id", null: false
+  t.datetime "created_at", null: false
+  t.datetime "updated_at", null: false
+  t.datetime "deleted_at"
+  t.integer "lock_version", default: 0, null: false
+
+  t.index ["user_id", "product_id"], unique: true
+end
