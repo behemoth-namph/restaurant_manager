@@ -121,7 +121,7 @@
           <div class="col-lg-3 col-md-4 col-12 col-sm-4">
             <div class="logo">
               <a href="/shop">
-                <img alt="" src="img/logo/logo.png" />
+                <img alt="" src="/img/logo/logo.png" />
               </a>
             </div>
           </div>
@@ -168,7 +168,7 @@
                   <ul>
                     <li class="single-shopping-cart">
                       <div class="shopping-cart-img">
-                        <a href="#"><img alt="" src="img/cart/cart-1.jpg"/></a>
+                        <a href="#"><img alt="" src="/img/cart/cart-1.jpg"/></a>
                       </div>
                       <div class="shopping-cart-title">
                         <h4><a href="#">Phantom Remote </a></h4>
@@ -181,7 +181,7 @@
                     </li>
                     <li class="single-shopping-cart">
                       <div class="shopping-cart-img">
-                        <a href="#"><img alt="" src="img/cart/cart-2.jpg"/></a>
+                        <a href="#"><img alt="" src="/img/cart/cart-2.jpg"/></a>
                       </div>
                       <div class="shopping-cart-title">
                         <h4><a href="#">Phantom Remote</a></h4>

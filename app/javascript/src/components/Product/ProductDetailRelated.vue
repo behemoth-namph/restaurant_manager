@@ -31,7 +31,7 @@
                 >
               </div>
               <div class="pro-action-right">
-                <a title="Wishlist" href="wishlist.html"
+                <a title="Wishlist" href="/shop/wishlist"
                   ><i class="ion-ios-heart-outline"></i
                 ></a>
                 <a
@@ -66,7 +66,7 @@
                 >
               </div>
               <div class="pro-action-right">
-                <a title="Wishlist" href="wishlist.html"
+                <a title="Wishlist" href="/shop/wishlist"
                   ><i class="ion-ios-heart-outline"></i
                 ></a>
                 <a
@@ -100,7 +100,7 @@
                 >
               </div>
               <div class="pro-action-right">
-                <a title="Wishlist" href="wishlist.html"
+                <a title="Wishlist" href="/shop/wishlist"
                   ><i class="ion-ios-heart-outline"></i
                 ></a>
                 <a
@@ -135,7 +135,7 @@
                 >
               </div>
               <div class="pro-action-right">
-                <a title="Wishlist" href="wishlist.html"
+                <a title="Wishlist" href="/shop/wishlist"
                   ><i class="ion-ios-heart-outline"></i
                 ></a>
                 <a
@@ -169,7 +169,7 @@
                 >
               </div>
               <div class="pro-action-right">
-                <a title="Wishlist" href="wishlist.html"
+                <a title="Wishlist" href="/shop/wishlist"
                   ><i class="ion-ios-heart-outline"></i
                 ></a>
                 <a

@@ -6,8 +6,8 @@
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="footer-about mb-40">
               <div class="footer-logo">
-                <a href="index.html">
-                  <img src="img/logo/footer-logo.png" alt="" />
+                <a href="/">
+                  <img src="/img/logo/footer-logo.png" alt="" />
                 </a>
               </div>
               <p>
@@ -15,7 +15,7 @@
               </p>
               <div class="payment-img">
                 <a href="#">
-                  <img src="img/icon-img/payment.png" alt="" />
+                  <img src="/img/icon-img/payment.png" alt="" />
                 </a>
               </div>
             </div>
@@ -46,7 +46,7 @@
                 <ul>
                   <li><a href="my-account.html">My Account</a></li>
                   <li><a href="#">Order History</a></li>
-                  <li><a href="wishlist.html">Wish List</a></li>
+                  <li><a href="/shop/wishlist">Wish List</a></li>
                   <li><a href="#">Newsletter</a></li>
                   <li><a href="#">Order History</a></li>
                   <li><a href="#">International Orders</a></li>
