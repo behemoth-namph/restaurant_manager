@@ -5,7 +5,7 @@
         <div class="col-lg-6 col-md-5">
           <div class="overview-img text-center">
             <a href="#">
-              <img src="img/banner/about-us.jpg" alt="" />
+              <img src="/img/banner/about-us.jpg" alt="" />
             </a>
           </div>
         </div>

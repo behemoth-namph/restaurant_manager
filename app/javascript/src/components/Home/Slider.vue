@@ -15,7 +15,7 @@
     >
       <div
         class="single-slider pt-210 pb-220 bg-img"
-        style="background-image:url(shop/img/slider/slider-2.jpg);"
+        style="background-image:url(/img/slider/slider-2.jpg);"
       >
         <div class="container">
           <div class="slider-content slider-animated-1">
@@ -29,7 +29,7 @@
       </div>
       <div
         class="single-slider pt-210 pb-220 bg-img"
-        style="background-image:url(shop/img/slider/slider-1.jpg);"
+        style="background-image:url(/img/slider/slider-1.jpg);"
       >
         <div class="container">
           <div class="slider-content slider-animated-1">

@@ -11,7 +11,7 @@
           <div class="team-wrapper mb-30">
             <div class="team-img">
               <a href="#">
-                <img src="img/team/team-1.jpg" alt="" />
+                <img src="/img/team/team-1.jpg" alt="" />
               </a>
               <div class="team-action">
                 <a
@@ -42,7 +42,7 @@
           <div class="team-wrapper mb-30">
             <div class="team-img">
               <a href="#">
-                <img src="img/team/team-2.jpg" alt="" />
+                <img src="/img/team/team-2.jpg" alt="" />
               </a>
               <div class="team-action">
                 <a class="action-plus facebook" href="https://www.facebook.com/hantinhnam/">
@@ -66,7 +66,7 @@
           <div class="team-wrapper mb-30">
             <div class="team-img">
               <a href="#">
-                <img src="img/team/team-1.jpg" alt="" />
+                <img src="/img/team/team-1.jpg" alt="" />
               </a>
               <div class="team-action">
                 <a
@@ -97,7 +97,7 @@
           <div class="team-wrapper mb-30">
             <div class="team-img">
               <a href="#">
-                <img src="img/team/team-2.jpg" alt="" />
+                <img src="/img/team/team-2.jpg" alt="" />
               </a>
               <div class="team-action">
                 <a class="action-plus facebook" href="https://www.facebook.com/hantinhnam/">

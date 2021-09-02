@@ -3,7 +3,7 @@
     <div class="container">
       <div
         class="discount-overlay bg-img pt-130 pb-130"
-        style="background-image:url(shop/img/banner/banner-4.jpg);"
+        style="background-image:url(/img/banner/banner-4.jpg);"
       >
         <div class="discount-content text-center">
           <h3>It’s Time To Start <br />Your Own Revolution By Laurent</h3>
