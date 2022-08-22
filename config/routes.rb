@@ -8,6 +8,6 @@ Rails.application.routes.draw do
     resources :wishlist, only: %i[index]
     resources :contact, only: %i[index]
     resources :product, only: %i[index show]
-    resources :login_register, only: %i[index]
+    resources :login_register
   end
 end

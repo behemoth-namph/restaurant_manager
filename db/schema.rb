@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_03_155919) do
+ActiveRecord::Schema.define(version: 0) do
 
   create_table "active_storage_attachments", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name", null: false
@@ -213,9 +213,9 @@ ActiveRecord::Schema.define(version: 2021_08_03_155919) do
     t.bigint "shop_id", null: false
     t.bigint "main_image_id"
     t.string "code", null: false
+    t.string "slug"
     t.string "name", null: false
     t.text "search_field"
-    t.string "slug"
     t.text "description"
     t.integer "state", default: 0, null: false
     t.boolean "is_public", default: false
